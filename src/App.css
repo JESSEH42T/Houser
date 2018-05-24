@@ -1,0 +1,165 @@
+.App {
+  padding-top: 75px;
+  background-color: #AFD4C0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/* HEADER */
+.Header {
+  width: 100%;
+  height: 75px;
+  background-color: #519872;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  align-self: auto;
+ 
+}
+.Header > img {
+  position: absolute;
+  left: 400px;
+  top: 23px;
+}
+
+.Header > h1 {
+  position: absolute;
+  left: 450px;
+}
+/* DASHBOARD */
+.dash {
+  width: 50vw;
+  background-color: #E5F4EC;
+}
+.dash_subheader {
+  display: flex;
+  justify-content: space-between;
+}
+.dash_heading {
+  font-size: 40px;
+  color: #3b5249;
+  margin: 20px;
+}
+.dash_subheader_button {
+  margin: 20px;
+  background-color: #8AEA92;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.dash_subheader_button:hover {
+  cursor: pointer;
+}
+.dash_prop_container {
+  border-top: solid 1px black;
+  margin: 0 20px 10px;
+}
+.dash_prop_heading {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* HOUSE */
+.house{
+  width:100%;
+  height: 300px;
+  background-color:#DEDEDE;
+  margin: 20px 0;
+  position: relative;
+}
+#house_detail_box {
+  font-size: 100%;
+  display: block;
+  height: 100%;
+  width: 90%;
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.house_delete_button{
+  position: absolute;
+  top:5px;
+  right:5px;
+}
+.house_delete_button:hover {
+  cursor: pointer;
+}
+
+/* WIZARD */
+.wiz{
+  width: 50vw;
+  background-color: #E5F4EC;
+  position: relative;
+}
+.wiz_subHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.wiz_heading{
+  font-size: 30px;
+  margin: 20px;
+  font-weight: 700;
+}
+.wiz_subheader_button {
+  margin: 20px;
+  border: none;
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #FEC2C2;
+}
+.wiz_subheader_button:hover {
+  cursor: pointer;
+}
+.wiz_input_container {
+  margin: 20px auto;
+  width: 70%;
+  /* border-top: solid 1px black; */
+}
+.wiz_input_box {
+  margin: 10px;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+.wiz_input_box > * {
+  margin: 2px;
+}
+.wiz_input_box > p {
+  margin-left: 12px;
+}
+
+.wiz_input_box > input {
+  border: solid 1px #519872;
+  border-radius: 2px;
+  height: 25px;
+}
+
+.wiz_input_box > input:focus {
+  outline: none;
+}
+
+.wiz_button {
+  margin: 20px;
+  background-color: #8AEA92;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.wiz_button:hover {
+  cursor: pointer;
+}
+
+
